@@ -17,10 +17,13 @@ body {
   touch-action: pan-y;
 }
 
+
 body {
   color: var(--c-text-title);
   background: var(--c-input);
   font-family: var(--app-font-family);
+  display: flex;
+  justify-content: center;
 }
 
 /* Disable rubber-band scroll utility */
