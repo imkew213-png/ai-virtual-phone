@@ -43,9 +43,9 @@ a {
 }
 
 .app-root {
-  width: min(1120px, 92vw);
+  width: 100%;
   margin: 0 auto;
-  padding: 24px 0 40px;
+  padding: 0;
 }
 
 .loading-card {
