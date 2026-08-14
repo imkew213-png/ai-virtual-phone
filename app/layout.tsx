@@ -5,6 +5,7 @@ import { ChatPluginBootstrap } from "@/components/chat-plugin-bootstrap";
 import { ChatReasoningVisibilityController } from "@/components/chat-reasoning-visibility-controller";
 import { CSSImportEnhancer } from "@/components/css-import-enhancer";
 import { PWARegistrar } from "@/components/pwa-registrar";
+import { ViewportFix } from "@/components/viewport-fix";
 import "../styles/fonts.css";
 import "./globals.css";
 
@@ -39,6 +40,7 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
       </head>
       <body>
+        <ViewportFix />
         <PWARegistrar />
         <CSSImportEnhancer />
         <ChatPluginBootstrap />
