@@ -180,8 +180,8 @@
   /* 组件装饰粉（心形/引号/符号） */
 
   /* ═══ Phone Shell ═══ */
-  --phone-screen-width: 390px;
-  --phone-screen-height: 844px;
+  --phone-screen-width: min(390px, 100vw);
+  --phone-screen-height: min(844px, 100svh);
   --phone-screen-radius: 48px;
   --phone-frame-size: 4px;
   --phone-frame-color: #111111;
