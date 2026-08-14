@@ -4,7 +4,7 @@
   --phone-total-width: calc(var(--phone-screen-width) + (2 * (var(--phone-frame-size) + var(--phone-case-padding) + var(--phone-case-border-size))));
   display: grid;
   gap: 10px;
-  width: calc(var(--phone-total-width) + 8px);
+  width: 100vw;
   margin-inline: auto;
   font-family: var(--app-font-family);
 }
@@ -12,7 +12,7 @@
 /* Outer metal mid-frame (stainless steel band) */
 .phone-case {
   position: relative;
-  width: var(--phone-total-width);
+  width: 100vw;
   margin-inline: auto;
   border-radius: var(--phone-case-radius);
   padding: var(--phone-case-padding);
